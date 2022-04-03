@@ -26,6 +26,7 @@ export function _getPhones (){
         setTimeout(() => res({...phones}), 1000);
     });
 }
+
 export function setInCart({id, inCart}){
     return new Promise((res, rej) =>{
         setTimeout(() =>{
